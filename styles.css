@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Anuphan', sans-serif; }
+
+body {
+  background: #000;
+  background: -webkit-linear-gradient(to right, #787878, #000);
+  background: linear-gradient(to right, #787878, #000); }
+  body main {
+    width: 1240px;
+    height: 1400px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    padding: 30px;
+    overflow: hidden; }
+    body main #left_column {
+      float: left;
+      width: 30%;
+      height: 1694px; }
+      body main #left_column img {
+        height: 17%;
+        max-width: 100%;
+        border: 3px solid #0581ab;
+        border-radius: 50%; }
+      body main #left_column article {
+        position: relative;
+        padding: 10px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        border-radius: 10px;
+        background-color: rgba(5, 129, 171, 0.8); }
+        body main #left_column article h4 {
+          color: white; }
+    body main #main_content {
+      width: calc(70%-380px);
+      margin-left: 380px;
+      height: 1694px; }
+      body main #main_content h1 {
+        margin-left: 200px;
+        margin-top: 70px;
+        margin-bottom: 100px; }
+      body main #main_content hr {
+        border-width: 2px; }
+      body main #main_content article {
+        position: relative;
+        margin-top: 50px;
+        margin-bottom: 50px; }
+        body main #main_content article .conocimientos {
+          display: flex;
+          justify-content: space-around;
+          margin-top: 30px; }
+          body main #main_content article .conocimientos i {
+            font-size: 3rem; }
+          body main #main_content article .conocimientos .java:hover {
+            transform: scale(1.3);
+            color: #ec2025; }
+          body main #main_content article .conocimientos .html:hover {
+            transform: scale(1.3);
+            color: #e54c21; }
+          body main #main_content article .conocimientos .css:hover {
+            transform: scale(1.3);
+            color: #264de4; }
+          body main #main_content article .conocimientos .js:hover {
+            transform: scale(1.3);
+            color: #f0db4f; }
+          body main #main_content article .conocimientos .python:hover {
+            transform: scale(1.3);
+            color: #3473a3; }
+          body main #main_content article .conocimientos .android:hover {
+            transform: scale(1.3);
+            color: #3ddc84; }
+
+/*# sourceMappingURL=styles.css.map */
